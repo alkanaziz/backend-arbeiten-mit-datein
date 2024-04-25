@@ -8,6 +8,11 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+app.use((req, res, next) => {
+    console.log(`Anfrage an ${req.method} ${req.url}`);
+    next();
+})
+
 const filePath = "data.json";
 
 
