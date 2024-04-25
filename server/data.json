@@ -5,5 +5,12 @@
     "lastName": "Aziz",
     "favoriteLanguage": "JavaScript",
     "isStudent": true
+  },
+  {
+    "id": "YKcq-_DR4URo7XVp-Op2j",
+    "firstName": "Aretas",
+    "lastName": "Ndimifor",
+    "favoriteLanguage": "JavaScript",
+    "isStudent": false
   }
 ]
