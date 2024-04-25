@@ -32,7 +32,7 @@ app.post('/user', (req, res) => {
     jsonData.push(newUserInfo);
     fs.writeFileSync(filePath, JSON.stringify(jsonData, null, 2));
 
-    res.send("User added successfully");
+    res.send({ message: 'User created successfully', user: newUserInfo });
 })
 
 app.get('/users', (req, res) => {
